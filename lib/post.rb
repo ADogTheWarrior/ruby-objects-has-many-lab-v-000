@@ -5,4 +5,8 @@ class Post
     @title = title
     @author = nil
   end
+
+  def author_name
+    @author
+  end
 end
